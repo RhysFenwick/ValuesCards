@@ -35,6 +35,7 @@ button {
     height: 100px;
     padding: 10px;
     border: 1px solid red;
+    border-radius: 5px;
 }
 
 /* ID-based values */
