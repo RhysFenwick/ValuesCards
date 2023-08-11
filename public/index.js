@@ -3,7 +3,7 @@
 var sort_button = document.getElementById("sort_button");
 var reset_button = document.getElementById("reset_button");
 
-var values_array = ["Value1","Value2","Value3","Value4","Value5","Value6"];
+var values_array = ["Love","Wealth","Family","Morals","Success","Knowledge","Power","Friends","Adventure","Variety","Calmness","Freedom","Fun","Recognition","Nature","Popularity","Responsibility","Safety","Relaxation","Creativity","Fairness","Wisdom","Stability","Peace","Respect","Spirituality","Beauty","Achievement","Independence","Reason","Loyalty","Humour","Honesty"];
 var val_list = document.getElementById("values_list");
 
 //Make fields valid drag targets - maybe do this iteratively?

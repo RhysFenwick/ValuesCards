@@ -7,26 +7,34 @@
     <title>Values Cards</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
+  <body style="background-color:seashell;">
     <h1>Values Cards</h1>
 
     <div id="ranking_fields">
-      <div id="Importance_High">
-        <p>Very Important</p>
+      <div class="outer_val_field">
+        <h2>Very Important</h2>
+        <div id="Importance_High" class="val_field" style="background-color: green;"></div>
       </div>
-      <div id="Importance_Med">
-        <p>Somewhat Important</p>
+      <div class="outer_val_field">
+        <h2>Somewhat Important</h2>
+        <div id="Importance_Med" class="val_field" style="background-color: orange;"></div>
       </div>
-      <div id="Importance_Low">
-        <p>Not very Important</p>
+
+      <div class="outer_val_field">
+        <h2>Not very Important</h2>
+        <div id="Importance_Low" class="val_field" style="background-color: orangered;"></div>
       </div>
     </div>
 
     <div id="values_list"></div>
 
     <div id="button_holder">
-      <button id="sort_button">Sort</button>
-      <button id="reset_button">Reset</button>
+      <button id="sort_button">
+        <h2>Sort</h2>
+      </button>
+      <button id="reset_button">
+        <h2>Reset</h2>
+      </button>
     </div>
 
 	<script src="index.js"></script>

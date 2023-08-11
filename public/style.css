@@ -1,9 +1,19 @@
+/* Global styling */
+
+html * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Element styles */
 
 h1 {
     text-align: center;
 }
   
+h2 {
+    text-align: center;
+}
+
 p {
     text-align: center;
 }
@@ -11,17 +21,20 @@ p {
 button {
     margin: 0 auto;
     display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
 /* Class styles */
 .value_card {
-    z-index: 9;
-    background-color: #f1f1f1;
-    border: 1px solid #d3d3d3;
+    background-color: lightblue;
+    border: 1px solid blue;
     text-align: center;
     width: fit-content;
     margin: 10px;
+    border-radius: 2px;
+    padding: 2px;
 }
 
 .centre {
@@ -31,11 +44,14 @@ button {
 }
 
 .val_field {
+    display: flex;
     width: 300px;
-    height: 100px;
-    padding: 10px;
-    border: 1px solid red;
+    padding: 40px;
+    border: 1px solid black;
     border-radius: 5px;
+    height: fit-content;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 /* ID-based values */
@@ -59,4 +75,5 @@ button {
     margin:10px;
     padding: 10px;
     justify-content: center;
+    flex-wrap: wrap;
 }
